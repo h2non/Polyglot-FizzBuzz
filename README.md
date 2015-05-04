@@ -1,6 +1,6 @@
 # Polyglot FizzBuzz
 
-FizzBuzz problem implementation in multiple programming languages and multiple programming paradigms (imperative, declarative, functional...)
+FizzBuzz problem implementation in multiple programming languages with multiparadigm styles (imperative, declarative, functional...)
 
 ## The Quiz
 
