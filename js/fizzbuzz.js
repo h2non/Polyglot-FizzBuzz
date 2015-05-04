@@ -1,4 +1,6 @@
+//
 // Traditional imperative way with boilerplate
+//
 
 for (var i = 0; i < 100; i += 1) {
   if (i % 15 === 0)      console.log('FizzBuzz')
@@ -7,7 +9,9 @@ for (var i = 0; i < 100; i += 1) {
   else                   console.log(i)
 }
 
+//
 // Traditional procedural way with less boilerplace but relies on mutation
+//
 
 var out = null
 for (var i = 0; i < 100; i += 1) {
@@ -18,7 +22,9 @@ for (var i = 0; i < 100; i += 1) {
   console.log(out)
 }
 
+//
 // Functional declarative way
+//
 
 function bizzbuzz(num) {
   return (
@@ -34,7 +40,9 @@ var list = Array.apply(null, Array(100)).map(function (_, i) {
 
 console.log(list.join('\n'))
 
+//
 // Another functional-style approach (less concise, explicit and efficient)
+//
 
 var pairs = { 3: 'Bizz', 5: 'Buzz', 15: 'BizzBuzz' }
 var keys = Object.keys(pairs)
